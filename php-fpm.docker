@@ -1,0 +1,74 @@
+# installing composer dependencies
+FROM composer:1.9.1 as composer-deps
+WORKDIR /app
+COPY ./composer.* ./
+RUN composer install -n --no-plugins --no-scripts --ignore-platform-reqs --no-custom-installers --no-autoloader
+
+
+FROM php:7.3-fpm-stretch
+
+RUN apt-get update --fix-missing
+
+RUN apt-get install -y \
+    curl \
+    zlib1g-dev \
+    libicu-dev \
+    libxslt-dev \
+    libpq-dev \
+    libpng-dev \
+    libjpeg-dev \
+    libzip-dev \
+    zlib1g-dev
+
+RUN docker-php-ext-configure gd \
+        --with-png-dir="$(dirname $(whereis libpng))" \
+        --with-jpeg-dir="$(dirname $(whereis libjpeg))" \
+        --with-gd
+
+RUN docker-php-ext-install \
+        gd \
+        pdo \
+        pdo_pgsql \
+        intl \
+        xsl \
+        zip
+
+RUN apt install -y libmagickwand-dev --no-install-recommends && \
+    pecl install imagick && docker-php-ext-enable imagick && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN sed -i 's/upload_max_filesize\ =\ .*$/upload_max_filesize = 300M/g' /usr/local/etc/php/php.ini-production
+RUN sed -i 's/upload_max_filesize\ =\ .*$/upload_max_filesize = 300M/g' /usr/local/etc/php/php.ini-development
+
+RUN sed -i 's/post_max_size\ =\ .*$/post_max_size = 300M/g' /usr/local/etc/php/php.ini-production
+RUN sed -i 's/post_max_size\ =\ .*$/post_max_size = 300M/g' /usr/local/etc/php/php.ini-development
+
+RUN sed -i 's/max_execution_time\ =\ .*$/max_execution_time = 300/g' /usr/local/etc/php/php.ini-production
+RUN sed -i 's/max_execution_time\ =\ .*$/max_execution_time = 300/g' /usr/local/etc/php/php.ini-development
+
+RUN sed -i 's/max_input_time\ =\ .*$/max_input_time = 300/g' /usr/local/etc/php/php.ini-production
+RUN sed -i 's/max_input_time\ =\ .*$/max_input_time = 300/g' /usr/local/etc/php/php.ini-development
+
+RUN sed -i 's/memory_limit\ =\ .*$/memory_limit = 512M/g' /usr/local/etc/php/php.ini-production
+RUN sed -i 's/memory_limit\ =\ .*$/memory_limit = 512M/g' /usr/local/etc/php/php.ini-development
+
+RUN apt-get install -y locales locales-all
+ENV LC_ALL ru_RU.UTF-8
+ENV LANG ru_RU.UTF-8
+ENV LANGUAGE ru_RU.UTF-8
+
+RUN apt-get install -y \
+    cron \
+    rsyslog
+
+COPY ./docker/php-fpm/entry.sh /root/entry.sh
+WORKDIR "/app"
+
+COPY ./composer.* /app/
+COPY --from=composer-deps /usr/bin/composer /usr/bin/composer
+COPY --from=composer-deps /app/vendor ./vendor
+RUN composer dump-autoload
+
+RUN chmod 755 /root/entry.sh
+
+ENTRYPOINT ["/bin/bash", "/root/entry.sh"]

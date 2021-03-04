@@ -1,0 +1,13 @@
+FROM nginx:latest
+USER root
+
+COPY ./.env /app/
+
+EXPOSE 80
+
+RUN rm /etc/nginx/nginx.conf
+COPY ./docker/nginx/nginx_http.conf /etc/nginx/nginx_http.conf
+COPY ./docker/nginx/deploy.sh /deploy.sh
+RUN /bin/bash /deploy.sh
+
+ENTRYPOINT ["nginx", "-g", "daemon off;"]

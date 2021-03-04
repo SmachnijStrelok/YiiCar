@@ -1,0 +1,358 @@
+2021/03/03 06:57:58 [warn] 8#8: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 192.168.220.1, server: 127.0.0.1, request: "POST /file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 06:58:18 [warn] 8#8: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 192.168.220.1, server: 127.0.0.1, request: "POST /file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 06:59:40 [warn] 8#8: *16 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 192.168.220.1, server: 127.0.0.1, request: "POST /file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 06:59:41 [warn] 8#8: *16 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 192.168.220.1, server: 127.0.0.1, request: "POST /file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:00:22 [warn] 8#8: *16 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 192.168.220.1, server: 127.0.0.1, request: "POST /file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:00:23 [warn] 8#8: *16 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 192.168.220.1, server: 127.0.0.1, request: "POST /file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:00:23 [warn] 8#8: *16 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 192.168.220.1, server: 127.0.0.1, request: "POST /file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:00:37 [warn] 8#8: *16 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 192.168.220.1, server: 127.0.0.1, request: "POST /file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:00:38 [warn] 8#8: *16 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 192.168.220.1, server: 127.0.0.1, request: "POST /file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:00:38 [warn] 8#8: *16 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 192.168.220.1, server: 127.0.0.1, request: "POST /file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:03:17 [warn] 8#8: *33 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 192.168.220.1, server: 127.0.0.1, request: "POST /file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:03:17 [warn] 8#8: *33 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 192.168.220.1, server: 127.0.0.1, request: "POST /file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:03:18 [warn] 8#8: *33 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 192.168.220.1, server: 127.0.0.1, request: "POST /file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:04:02 [warn] 8#8: *33 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 192.168.220.1, server: 127.0.0.1, request: "POST /site/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:04:02 [warn] 8#8: *33 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 192.168.220.1, server: 127.0.0.1, request: "POST /site/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:04:03 [warn] 8#8: *33 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 192.168.220.1, server: 127.0.0.1, request: "POST /site/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:04:07 [warn] 8#8: *33 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 192.168.220.1, server: 127.0.0.1, request: "GET /site/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:04:07 [warn] 8#8: *33 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 192.168.220.1, server: 127.0.0.1, request: "GET /site/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:04:08 [warn] 8#8: *33 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 192.168.220.1, server: 127.0.0.1, request: "GET /site/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:04:16 [warn] 8#8: *33 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 192.168.220.1, server: 127.0.0.1, request: "GET /site/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:04:16 [warn] 8#8: *33 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 192.168.220.1, server: 127.0.0.1, request: "GET /site/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:28:53 [error] 8#8: *10 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /app/backend/controllers/FileController.php on line 42. in /app/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /app/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(Error))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#4 {main}
+Previous exception:
+Error: Class 'common\models\attachment\Attachment' not found in /app/backend/controllers/FileController.php:48
+Stack trace:
+#0 [internal function]: backend\controllers\FileController->actionUpload()
+#1 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#3 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('upload', Array)
+#4 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('file/upload', Array)
+#5 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /app/backend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi',
+    'LANGUAGE' => 'ru_RU.UTF-8',
+    'HOSTNAME' => 'php-fpm',
+    'PHP_INI_DIR' => '/usr/local/etc/php',
+    'SHLVL' => '1',
+    'HOME' => '/var/www',
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie',
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64',
+    'PHP_MD5' => '',
+    'PHP_VERSION' => '7.3.24',
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D',
+    'PHP_AS
+2021/03/03 07:28:53 [error] 8#8: *10 FastCGI sent in stderr: "' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c',
+    'PWD' => '/app',
+    'PHP_SHA256' => '78b0b417a147ab7572c874334d11654e3c61ec5b3f2170098e5db02fb0c89888',
+    'USER' => 'www-data',
+    'HTTP_COOKIE' => 'access_token=39757b9ea40b0f0c615712a4f6be612ccb358bfe1716920a74c240791e56c73239667ee6c5a3402700ebe44e73baf5671e140228a88562b9418d8d3223ff938e; advanced-frontend=692852b4f903342136170b4e0393f8f4; _csrf-frontend=6f82571b17b2b3044c80ec884aef1b4e0ff27369f3d69f50da61bcc8bf0406c5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zHKCnkb1cDFXBQWNwxAclUR_zwHo_ccJ%22%3B%7D; advanced-backend=77a1144285547a0f9f22dc3bbbcd7a3c; _csrf-backend=6267464d8c6bd54f97730a009533271ea84a7cbee7d14cd393cbdea039a3c589a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ivKFbNVMJFaz_Vr5oXEm35sx5m_Ed1sz%22%3B%7D',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => '0.0.0.0:8081',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '192.168.220.3',
+    'REMOTE_PORT' => '36272',
+    'REMOTE_ADDR' => '192.168.220.1',
+    'SERVER_SOFTWARE' => 'nginx/1.19.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REQUEST_SCHEME' => 'http',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => '/app/backend/web',
+    'DOCUMENT_URI' => '/index.php',
+    'REQUEST_URI' => '/admin/file/upload',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'SCRIPT_NAM
+2021/03/03 07:32:14 [warn] 8#8: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 192.168.220.1, server: 127.0.0.1, request: "GET /admin/file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:33:00 [warn] 8#8: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 192.168.220.1, server: 127.0.0.1, request: "GET /admin/file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:33:00 [error] 8#8: *62 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /app/backend/controllers/FileController.php on line 56. in /app/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /app/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\BadRequestHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\BadRequestHttpException))
+#4 {main}
+Previous exception:
+yii\web\BadRequestHttpException: Upload error in /app/backend/controllers/FileController.php:58
+Stack trace:
+#0 [internal function]: backend\controllers\FileController->actionUpload()
+#1 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#3 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('upload', Array)
+#4 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('file/upload', Array)
+#5 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /app/backend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi',
+    'LANGUAGE' => 'ru_RU.UTF-8',
+    'HOSTNAME' => 'php-fpm',
+    'PHP_INI_DIR' => '/usr/local/etc/php',
+    'SHLVL' => '1',
+    'HOME' => '/var/www',
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie',
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64',
+    'PHP_MD5' => '',
+    'PHP_VERSION' => '7.3.24',
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF
+2021/03/03 07:33:00 [error] 8#8: *62 FastCGI sent in stderr: "TS=64',
+    '_' => '/usr/local/bin/docker-php-entrypoint',
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.24.tar.xz',
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+    'LANG' => 'ru_RU.UTF-8',
+    'LC_ALL' => 'ru_RU.UTF-8',
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c',
+    'PWD' => '/app',
+    'PHP_SHA256' => '78b0b417a147ab7572c874334d11654e3c61ec5b3f2170098e5db02fb0c89888',
+    'USER' => 'www-data',
+    'HTTP_CONTENT_LENGTH' => '11877',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+    'HTTP_AUTHENTICATION' => 'f83acb06e703d7248e7e78a1d1911e26b0bf774c9da4a68d6c894a1745df37f89bb092bc9d25d41bcacf143332b0df4111e856fdbde062ef5fe3d6f13bbde81f',
+    'HTTP_COOKIE' => 'advanced-frontend=ad4a8ab579ee9846b2da4c86a7f52d28; advanced-backend=c6f91dcbc9eeeb658d6b9aaa9c746629; _csrf-frontend=b34e6b88f173bfcd717103ddb8a97abfb4d72d481f4aac57d3d35d9df9262ef6a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22WXg2W5MdonTAZ8w6PqvUnBe3T91ftawP%22%3B%7D; _csrf-backend=c1ae3f3d6827b7bd757d3b180d2ddcbd63dd58cfeeecb6c217e01f48b23104dca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225YyGE8tKmZDPRieGwuAps-RCB09pL3aH%22%3B%7D',
+    'HTTP_USER_AGENT' => 'insomnia/2020.3.3',
+    'HTTP_HOST' => '0.0.0.0:8081',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '192.168.220.3',
+    'REMOTE_PORT' => '39224',
+    'REMOTE_ADDR' => '192.168.220.1',
+    'SERVER_SOFTWARE' => 'nginx/1.19.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REQUEST_SCHEME' => 'http',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => '/app/backend/web',
+    'DOCUMENT_URI' => '/index.php',
+    'REQUEST_URI' => '/admin/file/upload',
+    'CONTENT_LENGTH' => '11877',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=X-INSOMNIA-BOUNDARY',
+    '
+2021/03/03 07:41:57 [warn] 8#8: *78 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 192.168.220.1, server: 127.0.0.1, request: "POST /admin/file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:42:13 [warn] 8#8: *78 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 192.168.220.1, server: 127.0.0.1, request: "POST /admin/file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/03 07:42:27 [warn] 8#8: *78 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 192.168.220.1, server: 127.0.0.1, request: "POST /admin/file/upload HTTP/1.1", host: "0.0.0.0:8081"
+2021/03/04 08:39:41 [error] 8#8: *428 the rewritten URI has a zero length, client: 192.168.220.1, server: 127.0.0.1, request: "GET /download-file/ HTTP/1.1", host: "0.0.0.0:8081", referrer: "http://0.0.0.0:8081/admin/car/get/1"
+2021/03/04 08:40:46 [error] 8#8: *422 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /app/backend/controllers/CarController.php on line 83. in /app/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /app/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /app/backend/controllers/CarController.php on line 83. in /app/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /app/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /app/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi',
+    'LANGUAGE' => 'ru_RU.UTF-8',
+    'HOSTNAME' => 'php-fpm',
+    'PHP_INI_DIR' => '/usr/local/etc/php',
+    'SHLVL' => '1',
+    'HOME' => '/var/www',
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie',
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64',
+    'PHP_MD5' => '',
+    'PHP_VERSION' => '7.3.24',
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D',
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.24.tar.xz.asc',
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64',
+    '_' => '/usr/local/bin/docker-php-entrypoint',
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.24.tar.xz',
+ 
+2021/03/04 08:40:46 [error] 8#8: *422 FastCGI sent in stderr: "lUR_zwHo_ccJ%22%3B%7D; advanced-backend=77a1144285547a0f9f22dc3bbbcd7a3c; _csrf-backend=6267464d8c6bd54f97730a009533271ea84a7cbee7d14cd393cbdea039a3c589a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ivKFbNVMJFaz_Vr5oXEm35sx5m_Ed1sz%22%3B%7D',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => '0.0.0.0:8081',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '192.168.220.3',
+    'REMOTE_PORT' => '58880',
+    'REMOTE_ADDR' => '192.168.220.1',
+    'SERVER_SOFTWARE' => 'nginx/1.19.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REQUEST_SCHEME' => 'http',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => '/app/backend/web',
+    'DOCUMENT_URI' => '/index.php',
+    'REQUEST_URI' => '/admin/car/get/1',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'SCRIPT_NAME' => '/index.php',
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1614847246.51229,
+    'REQUEST_TIME' => 1614847246,
+    'argv' => [],
+    'argc' => 0,
+]" while reading upstream, client: 192.168.220.1, server: 127.0.0.1, request: "GET /admin/car/get/1 HTTP/1.1", upstream: "fastcgi://192.168.220.2:9000", host: "0.0.0.0:8081"
+2021/03/04 08:41:09 [error] 8#8: *442 the rewritten URI has a zero length, client: 192.168.220.1, server: 127.0.0.1, request: "GET /download-file/ HTTP/1.1", host: "0.0.0.0:8081", referrer: "http://0.0.0.0:8081/admin/car/get/1"
+2021/03/04 08:41:11 [error] 8#8: *450 the rewritten URI has a zero length, client: 192.168.220.1, server: 127.0.0.1, request: "GET /download-file/ HTTP/1.1", host: "0.0.0.0:8081", referrer: "http://0.0.0.0:8081/admin/car/get/1"
+2021/03/04 08:41:11 [error] 8#8: *458 the rewritten URI has a zero length, client: 192.168.220.1, server: 127.0.0.1, request: "GET /download-file/ HTTP/1.1", host: "0.0.0.0:8081", referrer: "http://0.0.0.0:8081/admin/car/get/1"
+2021/03/04 08:41:21 [error] 8#8: *465 the rewritten URI has a zero length, client: 192.168.220.1, server: 127.0.0.1, request: "GET /download-file/ HTTP/1.1", host: "0.0.0.0:8081", referrer: "http://0.0.0.0:8081/admin/car/get/1"
+2021/03/04 08:41:22 [error] 8#8: *472 the rewritten URI has a zero length, client: 192.168.220.1, server: 127.0.0.1, request: "GET /download-file/ HTTP/1.1", host: "0.0.0.0:8081", referrer: "http://0.0.0.0:8081/admin/car/get/1"
+2021/03/04 08:41:28 [error] 8#8: *439 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /app/backend/controllers/CarController.php on line 84. in /app/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /app/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /app/backend/controllers/CarController.php on line 84. in /app/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /app/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /app/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi',
+    'LANGUAGE' => 'ru_RU.UTF-8',
+    'HOSTNAME' => 'php-fpm',
+    'PHP_INI_DIR' => '/usr/local/etc/php',
+    'SHLVL' => '1',
+    'HOME' => '/var/www',
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie',
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64',
+    'PHP_MD5' => '',
+    'PHP_VERSION' => '7.3.24',
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D',
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.24.tar.xz.asc',
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64',
+    '_' => '/usr/local/bin/docker-php-entrypoint',
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.24.tar.xz',
+ 
+2021/03/04 08:41:28 [error] 8#8: *439 FastCGI sent in stderr: "backend=77a1144285547a0f9f22dc3bbbcd7a3c; _csrf-backend=6267464d8c6bd54f97730a009533271ea84a7cbee7d14cd393cbdea039a3c589a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ivKFbNVMJFaz_Vr5oXEm35sx5m_Ed1sz%22%3B%7D',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => '0.0.0.0:8081',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '192.168.220.3',
+    'REMOTE_PORT' => '59644',
+    'REMOTE_ADDR' => '192.168.220.1',
+    'SERVER_SOFTWARE' => 'nginx/1.19.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REQUEST_SCHEME' => 'http',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => '/app/backend/web',
+    'DOCUMENT_URI' => '/index.php',
+    'REQUEST_URI' => '/admin/car/get/1',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'SCRIPT_NAME' => '/index.php',
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1614847288.566058,
+    'REQUEST_TIME' => 1614847288,
+    'argv' => [],
+    'argc' => 0,
+]" while reading upstream, client: 192.168.220.1, server: 127.0.0.1, request: "GET /admin/car/get/1 HTTP/1.1", upstream: "fastcgi://192.168.220.2:9000", host: "0.0.0.0:8081"
+2021/03/04 08:41:38 [error] 8#8: *439 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /app/backend/controllers/CarController.php on line 84. in /app/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /app/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /app/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /app/backend/controllers/CarController.php on line 84. in /app/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /app/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /app/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi',
+    'LANGUAGE' => 'ru_RU.UTF-8',
+    'HOSTNAME' => 'php-fpm',
+    'PHP_INI_DIR' => '/usr/local/etc/php',
+    'SHLVL' => '1',
+    'HOME' => '/var/www',
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie',
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64',
+    'PHP_MD5' => '',
+    'PHP_VERSION' => '7.3.24',
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D',
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.24.tar.xz.asc',
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64',
+    '_' => '/usr/local/bin/docker-php-entrypoint',
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.24.tar.xz',
+ 
+2021/03/04 08:41:38 [error] 8#8: *439 FastCGI sent in stderr: "backend=77a1144285547a0f9f22dc3bbbcd7a3c; _csrf-backend=6267464d8c6bd54f97730a009533271ea84a7cbee7d14cd393cbdea039a3c589a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ivKFbNVMJFaz_Vr5oXEm35sx5m_Ed1sz%22%3B%7D',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => '0.0.0.0:8081',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '192.168.220.3',
+    'REMOTE_PORT' => '59644',
+    'REMOTE_ADDR' => '192.168.220.1',
+    'SERVER_SOFTWARE' => 'nginx/1.19.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REQUEST_SCHEME' => 'http',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => '/app/backend/web',
+    'DOCUMENT_URI' => '/index.php',
+    'REQUEST_URI' => '/admin/car/get/2',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'SCRIPT_NAME' => '/index.php',
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1614847298.259017,
+    'REQUEST_TIME' => 1614847298,
+    'argv' => [],
+    'argc' => 0,
+]" while reading upstream, client: 192.168.220.1, server: 127.0.0.1, request: "GET /admin/car/get/2 HTTP/1.1", upstream: "fastcgi://192.168.220.2:9000", host: "0.0.0.0:8081"
